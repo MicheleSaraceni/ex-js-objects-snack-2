@@ -50,6 +50,27 @@ export default function App() {
   //Gli oggetti in memoria creati sono 9, 3 per ogni oggetto
    */
 
+  //-------------------------------------------------------------------------------- SNACK 4
+
+  const chef = {
+    name: "Chef Hyur",
+    age: 29,
+    makeBurger: (num = 1) => {
+      console.log(`Ecco ${num} hamburger per te!`);
+    },
+  }
+
+  const restaurant = {
+    name: "Hyur's Burgers",
+    address: {
+      street: 'Main Street',
+      number: 123,
+    },
+    openingDate: new Date(2025, 3, 11),
+    isOpen: false,
+  };
+  //Il metodo migliore da usare per clonare l'oggetto chef è il metodo Spread (...) perche l'oggetto contiene una funzione
+  //Il metodo migliore da usare per clonare l'oggetto restaurant è structuredClone() perchè l'oggetto contiene un altro oggetto e una data
 
 
 }
