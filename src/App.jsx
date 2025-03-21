@@ -26,7 +26,7 @@ export default function App() {
 
   console.log(hamburger.ingredients[0]); // Salad
   console.log(secondBurger.ingredients[0]); // Salad
-  //sono stati creati 2 oggetti, uno è hamburger e uno è secondBurger
+  //sono stati creati 3 oggetti, uno è hamburger e uno è secondBurger e uno è l'array ingredients di hamburger
   */
 
   //-------------------------------------------------------------------------------- SNACK 3
@@ -51,7 +51,7 @@ export default function App() {
    */
 
   //-------------------------------------------------------------------------------- SNACK 4
-
+  /*
   const chef = {
     name: "Chef Hyur",
     age: 29,
@@ -71,6 +71,10 @@ export default function App() {
   };
   //Il metodo migliore da usare per clonare l'oggetto chef è il metodo Spread (...) perche l'oggetto contiene una funzione
   //Il metodo migliore da usare per clonare l'oggetto restaurant è structuredClone() perchè l'oggetto contiene un altro oggetto e una data
+  */
+
+  //-------------------------------------------------------------------------------- SNACK 5
+
 
 
 }
