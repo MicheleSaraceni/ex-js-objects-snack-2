@@ -14,6 +14,7 @@ export default function App() {
   */
 
   //-------------------------------------------------------------------------------- SNACK 2
+  /* 
   const hamburger = {
     name: "Cheese Burger",
     weight: 250,
@@ -26,6 +27,29 @@ export default function App() {
   console.log(hamburger.ingredients[0]); // Salad
   console.log(secondBurger.ingredients[0]); // Salad
   //sono stati creati 2 oggetti, uno è hamburger e uno è secondBurger
+  */
+
+  //-------------------------------------------------------------------------------- SNACK 3
+  /* 
+  const hamburger = { 
+    name: "Cheese Burger", 
+    weight: 250,
+    maker: {
+      name: "Anonymous Chef",
+      restaurant: {
+        name: "Hyur's Burgers",
+        address: "Main Street, 123",
+        isOpen: true,
+      },
+      age: 29
+    }
+  };
+  
+  const secondBurger = structuredClone(hamburger);
+  const thirdBurger = structuredClone(hamburger);
+  //Gli oggetti in memoria creati sono 9, 3 per ogni oggetto
+   */
+
 
 
 }
